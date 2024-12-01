@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img {
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.menu-item {
+  color: #169e00;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 39px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.menu-button,
+.menu-item-cta {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 39px;
+  cursor: pointer;
+  background-color: #169e00;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: none;
+  text-decoration: none;
+}
+
+.hero-section {
+  background-color: #169e00;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  gap: 20px;
+}
+.hero-item1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 92px;
+}
+.hero-item2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+.hero-item3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.customCTA {
+  color: #169e00 !important;
+  background-color: white !important;
+  width: max-content;
+}
+
+
+.work,
+.offer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.main-heading {
+  text-align: center;
+  color: #169e00;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 117px;
+}
+
+.sub-heading {
+  text-align: center;
+  color: #a3a3a3;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.sevices {
+  width: 900px;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+
+.service,
+.agency {
+  width: 450px;
+  color: #000000;
+  background-color: #169e00;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agency {
+  color: #ffffff !important;
+  background-color: #002a96 !important;
+}
+
+
+.triangle {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 205px;
+  bottom: -37px;
+}
+
+.main-heading{
+    font-family: "Montserrat", sans-serif;
+}
+
+.cards {
+  margin-top: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.card {
+  border-radius: 25px;
+  width: 390px;
+  max-height: 397px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 15px;
+  box-shadow: 0 9px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.card:hover{
+    transform: translateY(-15px);
+}
+
+.number {
+  width: 90px;
+  height: 90px;
+  background-color: #169e00;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+}
+
+.main-para {
+  margin-top: 30px;
+  color: #000000;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 29px;
+}
+
+.sub-para {
+  color: #a3a3a3;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  margin-top: 10px;
+}
+
+.offers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.offer-card {
+  border-radius: 20px;
+  width: 550px;
+  padding: 15px;
+  margin-top: 20px;
+  box-shadow: 0 9px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.offer-card:hover{
+    transform: translateY(-15px);
+}
+
+.brush {
+  width: 86px;
+  height: 86px;
+  background-color: #169e00;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+}
+
+.offer-heading {
+  color: #000000;
+  padding-top: 5px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.offer-description {
+  color: #a3a3a3;
+  font-size: 24;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+.footer {
+  display: flex;
+  color: #ffffff;
+  background-color: #002a96;
+  align-items: center;
+  justify-content: space-between;
+  height: 344px;
+  padding: 0px 50px;
+  gap: 35px;
+}
+
+.info {
+  text-align: center;
+}
+.info-heading {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+.info-descrption {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.talk {
+  text-align: center;
+}
+.talk-heading {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+}
+.ph-no {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+}
+.info-email {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.ebook {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+.ebook-heading {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+}
+.ebook-description {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 0;
+}
+
+.contact-btn {
+  border: none;
+  background-color: #169e00;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 10px;
+  width: 120px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#name,
+#email {
+  padding: 5px;
+  border: none;
+}
+
+.links {
+  text-align: center;
+}
+.link-heading {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+}
+.menu-link {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 9px;
+  margin-top: 15px;
+}
+.menu1 {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.icon {
+  text-align: left;
+  margin-top: 5px;
+}
+.icon > i {
+  font-size: 24px;
+  padding: 0 5px;
+}

@@ -1,0 +1,562 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img {
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.menu-item {
+  color: #169e00;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 39px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.menu-button,
+.menu-item-cta {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 39px;
+  cursor: pointer;
+  background-color: #169e00;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: none;
+  text-decoration: none;
+}
+
+
+.about-us{
+  background-color: #169e00;
+  min-height: 474px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.main-heading{
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 117px;
+}
+
+.section {
+  width: 100%; 
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 15px; 
+}
+
+.talk-page {
+  padding: 5px;
+  text-align: center; 
+}
+
+.talk-heading{
+  color: #169e00;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+}
+.talk-para{
+  color: #A3A3A3;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+}
+
+.talk-form{
+
+  margin-top: 80px;
+  background-color: #169e00;
+  color: #ffffff;
+  border-radius: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px 15px;
+}
+.talk-form>label{
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43px;
+  margin-top: 10px;
+}
+.talk-form>input{
+  font-size: 30px;
+  padding: 10px;
+}
+
+.talk-form-btn{
+  background-color: #002A96;
+  border: none;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43px;
+}
+
+.footer {
+  display: flex;
+  color: #ffffff;
+  background-color: #002a96;
+  align-items: center;
+  justify-content: space-between;
+  height: 344px;
+  padding: 0px 50px;
+  gap: 35px;
+}
+
+.info {
+  text-align: center;
+}
+.info-heading {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+.info-descrption {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.talk {
+  text-align: center;
+}
+.talk-heading {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+}
+.ph-no {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+}
+.info-email {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.ebook {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+.ebook-heading {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+}
+.ebook-description {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 0;
+}
+
+.contact-btn {
+  border: none;
+  background-color: #169e00;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 10px;
+  width: 120px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#name,
+#email {
+  padding: 5px;
+  border: none;
+}
+
+.links {
+  text-align: center;
+}
+.link-heading {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+}
+.menu-link {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 9px;
+  margin-top: 15px;
+}
+.menu1 {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.icon {
+  text-align: left;
+  margin-top: 5px;
+}
+.icon > i {
+  font-size: 24px;
+  padding: 0 5px;
+}
+
+/* Mobile screens (320px - 640px) */
+@media (max-width: 640px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .logo-img {
+      width: 150px;
+      height: auto;
+    }
+  
+    .nav-menu {
+      flex-direction: column;
+      width: 100%;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .menu {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+  
+    .menu-item {
+      font-size: 18px;
+    }
+  
+    .menu-button {
+      font-size: 18px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .main-heading {
+      text-align: center;
+      font-size: 48px; 
+      line-height: 58px;
+    }
+  
+
+    .talk-heading {
+      font-size: 36px;
+      line-height: 44px;
+    }
+  
+    .talk-para {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  
+    .talk-form {
+      padding: 20px 10px;
+    }
+  
+    .talk-form > label {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  
+    .talk-form > input {
+      font-size: 16px;
+    }
+  
+    .talk-form-btn {
+      font-size: 20px;
+    }
+
+    .footer {
+      flex-direction: column;
+      padding: 20px 10px;
+      height: auto;
+      gap: 20px;
+    }
+  
+    .info-heading {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  
+    .info-descrption {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .talk-heading {
+      font-size: 24px;
+    }
+  
+    .ph-no,
+    .info-email {
+      font-size: 14px;
+    }
+  
+    .ebook {
+      width: 80%;
+      margin: auto;
+    }
+  
+    .ebook-heading {
+      font-size: 28px;
+    }
+  
+    .ebook-description {
+      font-size: 12px;
+    }
+  
+    .contact-btn {
+      width: 100%;
+    }
+  
+    .links {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .menu-link {
+      align-items: center;
+    }
+  
+    .icon {
+      text-align: center;
+    }
+  
+    .icon > i {
+      font-size: 20px;
+    }
+  }
+  
+  /* Tablet screens (640px - 1024px) */
+  @media (min-width: 640px) and (max-width: 1024px) {
+    .navbar {
+      flex-direction: row;
+      padding: 15px 30px;
+    }
+  
+    .logo-img {
+      width: 180px;
+      height: auto;
+    }
+  
+    .nav-menu {
+      gap: 15px;
+    }
+  
+    .menu {
+      gap: 15px;
+    }
+  
+    .menu-item {
+      font-size: 18px;
+    }
+  
+    .menu-button {
+      font-size: 18px;
+      padding: 8px 15px;
+    }
+
+    .main-heading {
+      font-size: 72px;
+      line-height: 88px;
+    }
+
+    .talk-heading {
+      font-size: 48px;
+      line-height: 58px;
+    }
+  
+    .talk-para {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  
+    .talk-form > label {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  
+    .talk-form > input {
+      font-size: 18px;
+    }
+  
+    .talk-form-btn {
+      font-size: 24px;
+    }
+  
+    .footer {
+      flex-direction: column;
+      padding: 20px;
+      height: auto;
+    }
+  
+    .footer > .info,
+    .footer > .talk {
+      width: 100%;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    .footer > .ebook,
+    .footer > .links {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .info-heading {
+      font-size: 40px;
+    }
+  
+    .talk-heading {
+      font-size: 28px;
+    }
+  
+    .ebook-heading {
+      font-size: 28px;
+    }
+  
+    .ebook-description {
+      font-size: 14px;
+    }
+  
+    .contact-btn {
+      width: 120px;
+    }
+  
+    .links {
+      width: 100%;
+    }
+  
+    .icon > i {
+      font-size: 22px;
+    }
+  }
+  
+  /* Desktop screens (above 1024px) */
+  @media (min-width: 1024px) {
+    .navbar {
+      padding: 20px 40px;
+    }
+  
+    .logo-img {
+      width: 200px;
+      height: 60px;
+    }
+  
+    .menu-item {
+      font-size: 20px;
+    }
+  
+    .menu-button {
+      font-size: 20px;
+      padding: 10px 20px;
+    }
+
+    .footer {
+      flex-direction: row;
+      justify-content: space-between;
+      height: 344px;
+    }
+  
+    .info-heading {
+      font-size: 48px;
+      line-height: 58px;
+    }
+  
+    .info-descrption {
+      font-size: 20px;
+    }
+  
+    .talk-heading {
+      font-size: 32px;
+    }
+  
+    .ph-no,
+    .info-email {
+      font-size: 18px;
+    }
+  
+    .ebook {
+      width: 250px;
+    }
+  
+    .ebook-heading {
+      font-size: 32px;
+    }
+  
+    .ebook-description {
+      font-size: 14px;
+    }
+  
+    .contact-btn {
+      width: 120px;
+    }
+  
+    .menu1 {
+      font-size: 20px;
+    }
+  
+    .icon > i {
+      font-size: 24px;
+    }
+  }
+  

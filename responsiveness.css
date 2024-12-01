@@ -1,0 +1,547 @@
+/* Mobile screens (320px - 640px) */
+@media (max-width: 640px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .logo-img {
+      width: 150px;
+      height: auto;
+    }
+  
+    .nav-menu {
+      flex-direction: column;
+      width: 100%;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .menu {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+  
+    .menu-item {
+      font-size: 18px;
+    }
+  
+    .menu-button {
+      font-size: 18px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .hero-section {
+      padding: 20px;
+      gap: 15px;
+    }
+  
+    .hero-item1 {
+      font-size: 36px;
+      line-height: 46px;
+      text-align: center;
+    }
+  
+    .hero-item2 {
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+    }
+  
+    .hero-item3 {
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+    }
+    .hero-item {
+      margin-inline: auto;
+    }
+  
+    .customCTA {
+      font-size: 16px;
+      padding: 8px 16px;
+      align-self: center;
+    }
+  
+    .main-heading {
+      font-size: 48px;
+      line-height: 60px;
+    }
+  
+    .sub-heading {
+      font-size: 20px;
+      line-height: 28px;
+      margin-top: 10px;
+    }
+  
+    .sevices {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      gap: 10px;
+      align-items: center;
+    }
+  
+    .service,
+    .agency {
+      width: 90%;
+      font-size: 24px;
+      padding: 10px;
+    }
+  
+    .cards {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .card {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .number {
+      width: 70px;
+      height: 70px;
+      font-size: 48px;
+    }
+  
+    .main-para {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  
+    .sub-para {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .offers {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .offer-card {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .brush {
+      width: 60px;
+      height: 60px;
+      font-size: 48px;
+      line-height: 58px;
+    }
+  
+    .offer-heading {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    .offer-description {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    .footer {
+      flex-direction: column;
+      padding: 20px 10px;
+      height: auto;
+      gap: 20px;
+    }
+  
+    .info-heading {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  
+    .info-descrption {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .talk-heading {
+      font-size: 24px;
+    }
+  
+    .ph-no,
+    .info-email {
+      font-size: 14px;
+    }
+  
+    .ebook {
+      width: 80%;
+      margin: auto;
+    }
+  
+    .ebook-heading {
+      font-size: 28px;
+    }
+  
+    .ebook-description {
+      font-size: 12px;
+    }
+  
+    .contact-btn {
+      width: 100%;
+    }
+  
+    .links {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .menu-link {
+      align-items: center;
+    }
+  
+    .icon {
+      text-align: center;
+    }
+  
+    .icon > i {
+      font-size: 20px;
+    }
+  }
+  
+  /* Tablet screens (640px - 1024px) */
+  @media (min-width: 640px) and (max-width: 1024px) {
+    .navbar {
+      flex-direction: row;
+      padding: 15px 30px;
+    }
+  
+    .logo-img {
+      width: 180px;
+      height: auto;
+    }
+  
+    .nav-menu {
+      gap: 15px;
+    }
+  
+    .menu {
+      gap: 15px;
+    }
+  
+    .menu-item {
+      font-size: 18px;
+    }
+  
+    .menu-button {
+      font-size: 18px;
+      padding: 8px 15px;
+    }
+  
+    .hero-section {
+      padding: 30px;
+      gap: 18px;
+    }
+  
+    .hero-item1 {
+      font-size: 48px;
+      line-height: 60px;
+    }
+  
+    .hero-item2 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    .hero-item3 {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  
+    .customCTA {
+      font-size: 18px;
+      padding: 10px 18px;
+    }
+
+    .main-heading {
+      font-size: 64px;
+      line-height: 80px;
+    }
+  
+    .sub-heading {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    .sevices {
+      width: 100%;
+      height: auto;
+      justify-content: center;
+    }
+  
+    .service,
+    .agency {
+      width: 48%;
+      font-size: 28px;
+    }
+  
+    .cards {
+      flex-direction: row;
+      gap: 15px;
+      justify-content: space-around;
+    }
+  
+    .card {
+      width: 48%;
+    }
+  
+    .number {
+      width: 80px;
+      height: 80px;
+      font-size: 56px;
+    }
+  
+    .main-para {
+      font-size: 20px;
+    }
+  
+    .sub-para {
+      font-size: 16px;
+    }
+
+    .offers {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  
+    .offer-card {
+      width: 45%;
+      margin-bottom: 20px;
+    }
+  
+    .brush {
+      width: 75px;
+      height: 75px;
+      font-size: 56px;
+      line-height: 68px;
+    }
+  
+    .offer-heading {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  
+    .offer-description {
+      font-size: 20px;
+      line-height: 26px;
+    }
+
+    .footer {
+      flex-direction: column;
+      padding: 20px;
+      height: auto;
+    }
+  
+    .footer > .info,
+    .footer > .talk {
+      width: 100%;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    .footer > .ebook,
+    .footer > .links {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .info-heading {
+      font-size: 40px;
+    }
+  
+    .talk-heading {
+      font-size: 28px;
+    }
+  
+    .ebook-heading {
+      font-size: 28px;
+    }
+  
+    .ebook-description {
+      font-size: 14px;
+    }
+  
+    .contact-btn {
+      width: 120px;
+    }
+  
+    .links {
+      width: 100%;
+    }
+  
+    .icon > i {
+      font-size: 22px;
+    }
+  }
+  
+  /* Desktop screens (above 1024px) */
+  @media (min-width: 1024px) {
+    .navbar {
+      padding: 20px 40px;
+    }
+  
+    .logo-img {
+      width: 200px;
+      height: 60px;
+    }
+  
+    .menu-item {
+      font-size: 20px;
+    }
+  
+    .menu-button {
+      font-size: 20px;
+      padding: 10px 20px;
+    }
+  
+
+    .hero-section {
+      padding: 40px;
+    }
+  
+    .hero-item1 {
+      font-size: 72px;
+      line-height: 92px;
+    }
+  
+    .hero-item2 {
+      font-size: 40px;
+      line-height: 48px;
+    }
+  
+    .hero-item3 {
+      font-size: 24px;
+      line-height: 29px;
+    }
+  
+    .customCTA {
+      font-size: 20px;
+      padding: 12px 24px;
+    }
+  
+
+    .main-heading {
+      font-size: 96px;
+      line-height: 117px;
+    }
+  
+    .sub-heading {
+      font-size: 32px;
+      line-height: 32px;
+    }
+  
+    .sevices {
+      width: 900px;
+    }
+  
+    .service,
+    .agency {
+      width: 450px;
+    }
+  
+    .cards {
+      justify-content: space-around;
+    }
+  
+    .card {
+      width: 390px;
+    }
+  
+    .number {
+      width: 90px;
+      height: 90px;
+      font-size: 64px;
+    }
+  
+    .main-para {
+      font-size: 22px;
+    }
+  
+    .sub-para {
+      font-size: 16px;
+    }
+
+    .offers {
+      justify-content: space-around;
+    }
+  
+    .offer-card {
+      width: 23%;
+      margin-bottom: 20px;
+    }
+  
+    .brush {
+      width: 86px;
+      height: 86px;
+      font-size: 64px;
+      line-height: 78px;
+    }
+  
+    .offer-heading {
+      font-size: 40px;
+      line-height: 48px;
+    }
+  
+    .offer-description {
+      font-size: 24px;
+      line-height: 29px;
+    }
+  
+
+    .footer {
+      flex-direction: row;
+      justify-content: space-between;
+      height: 344px;
+    }
+  
+    .info-heading {
+      font-size: 48px;
+      line-height: 58px;
+    }
+  
+    .info-descrption {
+      font-size: 20px;
+    }
+  
+    .talk-heading {
+      font-size: 32px;
+    }
+  
+    .ph-no,
+    .info-email {
+      font-size: 18px;
+    }
+  
+    .ebook {
+      width: 250px;
+    }
+  
+    .ebook-heading {
+      font-size: 32px;
+    }
+  
+    .ebook-description {
+      font-size: 14px;
+    }
+  
+    .contact-btn {
+      width: 120px;
+    }
+  
+    .menu1 {
+      font-size: 20px;
+    }
+  
+    .icon > i {
+      font-size: 24px;
+    }
+  }
